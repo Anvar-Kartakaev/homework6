@@ -67,10 +67,10 @@ public class Main {
 
         //Task 10
         System.out.println("\nЗадание №10:");
-        int number = 0;
-        for (int i = 2; i <= 20; i = (number * 2) + 2) {
-            number = number + 1;
-            System.out.println("2*" + number + "=" + i);
+        for (int i = 2; i <= 2; i++) {
+            for (int j = 1; j <= 10; j++) {
+                System.out.println(i + "x" + j + "=" + i * j);
+            }
         }
 
     }
